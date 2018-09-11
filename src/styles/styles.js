@@ -1,11 +1,11 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
-    alignItems: 'center',
-    backgroundColor: '#fff',
+    flexDirection: "column",
+    alignItems: "center",
+    backgroundColor: "#fff"
   },
   imageNavBar: {
     width: 120,
@@ -21,11 +21,11 @@ export const styles = StyleSheet.create({
   },
   itemBox: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: "column",
     marginLeft: 10
   },
   createdBox: {
-    alignItems: 'flex-end',
+    alignItems: "flex-end",
     marginBottom: 5
   },
   titleBox: {
@@ -34,27 +34,27 @@ export const styles = StyleSheet.create({
   },
   textBox: {
     fontSize: 14,
-    color: 'steelblue',
+    color: "steelblue",
     marginLeft: 10
   },
   headerBox: {
     flex: 1,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-end'
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "flex-end"
   },
   dateBox: {
     fontSize: 12,
-    color: 'gray'
+    color: "gray"
   },
   authorBox: {
     fontSize: 12,
-    color: 'skyblue'
+    color: "skyblue"
   },
   containerPost: {
     flex: 1,
     paddingTop: 5,
     marginLeft: -13,
-    backgroundColor: '#ecf0f1',
+    backgroundColor: "#ecf0f1"
   }
 });

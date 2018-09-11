@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 const buttonStyle = StyleSheet.create({
   buttonContainer: {
@@ -6,11 +6,11 @@ const buttonStyle = StyleSheet.create({
   },
   alternativeLayoutButtonContainer: {
     margin: 20,
-    flexDirection: 'row',
-    justifyContent: 'space-between'
+    flexDirection: "row",
+    justifyContent: "space-between"
   },
   button: {
-    backgroundColor: '#DDDDDD',
+    backgroundColor: "#DDDDDD",
     padding: 10
   }
 });

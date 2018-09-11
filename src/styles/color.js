@@ -1,12 +1,12 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const colorStyle = StyleSheet.create({
   red: {
-    color: 'red'
+    color: "red"
   },
   bigblue: {
-    color: 'blue',
-    fontWeight: 'bold',
-    fontSize: 30,
-  },
+    color: "blue",
+    fontWeight: "bold",
+    fontSize: 30
+  }
 });
